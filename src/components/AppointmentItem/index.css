@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.item {
+  list-style-type: none;
+  background-color: #ffffff;
+  box-shadow: inset;
+  height: 10vh;
+  width: 25vw;
+  border-width: 1px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.hed {
+  font-size: 20px;
+  margin-left: 2vh;
+}
+.star {
+  display: flex;
+  justify-content: space-between;
+}
+.stars {
+  height: 5vh;
+}
+.starbutton {
+  background-color: #ffffff;
+  border-width: 0px;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 14px;
+}

@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.Card {
+  margin: 20px;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+}
+.hori {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.but {
+  background-color: #8b5cf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 7vw;
+  margin-top: 3vh;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.but2 {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 6vw;
+  margin-right: 3vh;
+  margin-top: 2vh;
+  margin-right: 3vh;
+  border-width: 1px;
+  border: 1px solid #8b5cf6;
+  border-radius: 12px;
+  color: #8b5cf6;
+}
+.line {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+.lab {
+  margin-top: 6vh;
+}
+.input {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 8px;
+}
+.fhalf {
+  margin-left: 20px;
+}
+.hedbtn {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  color: #171f46;
+  margin-left: 1vh;
+}
+.heading2 {
+  color: #171f46;
+  margin-left: 4vh;
+}
+.image {
+  height: 50vh;
+  margin-right: 10vh;
+}
+.fhalf {
+  display: flex;
+  flex-direction: column;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
