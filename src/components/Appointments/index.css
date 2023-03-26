@@ -11,6 +11,9 @@
   justify-content: space-between;
   padding: 20px;
 }
+.hede {
+  color: #ffffff;
+}
 .but {
   background-color: #8b5cf6;
   display: flex;

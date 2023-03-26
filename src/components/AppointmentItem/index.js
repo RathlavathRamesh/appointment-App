@@ -4,16 +4,16 @@ import {Component} from 'react'
 
 class CommentItem extends Component {
   render() {
-    const {info} = this.props
-    const {title, date, star, filled, isStarred, change, id} = info
-    const img = isStarred ? filled : star
+    const {info, change} = this.props
+    const {title, date, star, filled, isLiked, id} = info
+    const img = isLiked ? filled : star
     const changestar = () => {
       change(id)
     }
     return (
       <li className="item">
         <div className="star">
-          <h1 className="hed">{title}</h1>
+          <p className="hed">{title}</p>
           <button
             data-testid="star"
             type="button"
